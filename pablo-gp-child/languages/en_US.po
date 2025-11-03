@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pablo-gp 1.0.0\n"
+"Language: en_US\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Jetzt anrufen (24/7)"
+msgstr "Call now (24/7)"
+
+msgid "Abschleppen bestellen"
+msgstr "Request towing"

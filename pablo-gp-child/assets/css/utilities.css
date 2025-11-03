@@ -1,0 +1,16 @@
+.text-center{text-align:center}
+.mt-0{margin-top:0}
+.mt-lg{margin-top:32px}
+.mt-xl{margin-top:48px}
+.mb-0{margin-bottom:0}
+.mb-lg{margin-bottom:32px}
+.p-section{padding:64px 0}
+.bg-white{background:#fff}
+.bg-navy{background:var(--brand-navy);color:#fff}
+.text-muted{color:var(--gray-500)}
+.grid{display:grid;gap:24px}
+.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media (max-width:780px){
+  .grid-cols-2,.grid-cols-3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+}

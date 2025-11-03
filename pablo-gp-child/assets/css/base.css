@@ -1,0 +1,47 @@
+:root{
+  --brand-navy:#0E2A47; --brand-white:#FFFFFF; --brand-silver:#BEC6CF;
+  --navy-900:#0B1E36; --navy-800:#0E2A47; --navy-700:#15365E; --navy-600:#1C497A; --navy-100:#E6EEF7;
+  --gray-900:#0F1A25; --gray-700:#3C4A58; --gray-500:#8FA2B2; --gray-300:#E5EBF1; --gray-100:#F7FAFC;
+  --accent:#2BB3DA; --accent-hover:#2198BD; --focus-ring:#00A3C4;
+  --success:#2E7D32; --warning:#C98000; --danger:#C4352B; --info:#1F6FDB;
+  --radius:12px; --shadow-sm:0 1px 2px rgba(14,42,71,.08);
+  --shadow-md:0 6px 16px rgba(14,42,71,.12);
+  --shadow-lg:0 12px 28px rgba(14,42,71,.16);
+  --ease:cubic-bezier(.2,.6,.2,1);
+  --container:clamp(16px,4vw,32px);
+}
+
+*{box-sizing:border-box}
+html{font-size:100%;scroll-behavior:smooth}
+body{font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:400;font-size:16px;line-height:1.5;color:var(--gray-900);background-color:var(--gray-100);margin:0;}
+img{max-width:100%;height:auto;border:0}
+a{color:var(--accent);text-decoration:none;transition:color .2s var(--ease),text-decoration-color .2s var(--ease)}
+a:hover{text-decoration:underline}
+a:focus-visible{outline:0;box-shadow:0 0 0 3px var(--focus-ring)}
+button{font-family:inherit}
+
+h1,h2,h3,h4,h5,h6{font-family:'Montserrat','Inter',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;font-weight:600;color:var(--gray-900);margin-top:0;margin-bottom:.5em}
+h1{font-size:40px;line-height:48px}
+h2{font-size:32px;line-height:40px}
+h3{font-size:24px;line-height:32px}
+h4{font-size:20px;line-height:28px}
+
+p{margin-top:0;margin-bottom:1em;max-width:70ch}
+ul{padding-left:1.2rem}
+
+.container{max-width:1140px;margin:0 auto;padding:0 var(--container)}
+
+.skip-link{position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{left:16px;top:16px;width:auto;height:auto;padding:12px 16px;background:var(--brand-navy);color:#fff;border-radius:var(--radius);z-index:9999}
+
+.screen-reader-text{position:absolute;clip:rect(1px,1px,1px,1px);height:1px;width:1px;overflow:hidden}
+.screen-reader-text:focus{clip:auto;height:auto;width:auto;display:block;background:#fff;color:#000;padding:1rem;z-index:100000}
+
+.site{display:flex;flex-direction:column;min-height:100vh}
+.site-main{flex:1 1 auto}
+
+@media (max-width:768px){
+  h1{font-size:32px;line-height:40px}
+  h2{font-size:28px;line-height:36px}
+  .container{padding:0 clamp(16px,6vw,28px)}
+}

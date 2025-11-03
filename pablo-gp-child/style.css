@@ -1,0 +1,18 @@
+/*
+Theme Name: Pablo Abschleppdienst Child
+Theme URI: https://abschlepp-pablo.at/
+Author: Autohandel & Abschleppdienst Pablo E.U.
+Author URI: https://abschlepp-pablo.at/
+Description: GeneratePress child theme tailored for Autohandel & Abschleppdienst Pablo E.U. with Gutenberg-first components, Core Web Vitals 2025 readiness, and WCAG 2.2 AA compliance.
+Template: generatepress
+Version: 1.0.0
+Text Domain: pablo-gp
+Domain Path: /languages
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom-colors, custom-menu, custom-logo, editor-style, featured-images, translation-ready
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&display=swap');
+
+/* Base theme stylesheet intentionally left minimal. See assets/css for full system. */
